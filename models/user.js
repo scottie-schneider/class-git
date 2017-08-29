@@ -23,3 +23,5 @@ let UserSchema = new mongoose.Schema({
 })
 let User = mongoose.model('User', UserSchema);
 module.exports = User;
+
+//Getting some experience in with Git!
