@@ -2,6 +2,10 @@ let express = require('express');
 let router = express.Router();
 let User = require('../models/user');
 
+// GET 
+router.get('/hosed', function(req,res,next){
+	return res.send('Scottie is hosed');
+})
 // GET /Register
 router.get('/register', function(req,res,next) {
 
