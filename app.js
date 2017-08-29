@@ -2,7 +2,7 @@ let express = require('express');
 let bodyParser = require('body-parser');
 let mongoose = require('mongoose');
 let app = express();
-
+//Scott is a douche!!!
 
 // mongodb connection
 mongoose.connect("mongodb://localhost:27017/classGrader");
