@@ -4,13 +4,14 @@ let express = require('express');
 let bodyParser = require('body-parser');
 let mongoose = require('mongoose');
 let app = express();
-//Scott is a douche!!!
+
+//ron added this comment  - suk it 2
 
 // mongodb connection
-mongoose.connect("mongodb://localhost:27017/classGrader");
-let db = mongoose.connection;
+//mongoose.connect("mongodb://localhost:27017/classGrader");
+//let db = mongoose.connection;
 //mongo error
-db.on('error', console.error.bind(console, 'connection error: Oh noes!'));
+//db.on('error', console.error.bind(console, 'connection error: Oh noes!'));
 
 //parse incoming requests
 app.use(bodyParser.json());

@@ -36,7 +36,7 @@ router.post('/register', function(req,res,next){
 		User.create(userData, function(error, user){
 			if(error){
 				return next(error);
-			}else if (req.body.name == 'Ron'){
+			}else if (req.body.name == 'Drake'){
 				return res.render('nope');
 			}else{
 				return res.redirect('/profile');
